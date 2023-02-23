@@ -8,10 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Component;
 
-import com.example.demo.model.PetroomVo;
-import com.example.demo.model.RoomOrderDeatilVo;
-import com.example.demo.rowmapper.PetroomRowMapper;
-import com.example.demo.rowmapper.RoomOrderDetailRowMapper;
+import com.molife.demo.room.model.RoomOrderDeatilVo;
+import com.molife.demo.room.rowmapper.RoomOrderDetailRowMapper;
 
 @Component
 public class RoomOrderDeatlDaoImpl implements RoomOrderDeatilDao{

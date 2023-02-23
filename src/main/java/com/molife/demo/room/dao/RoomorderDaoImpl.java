@@ -12,10 +12,10 @@ import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Component;
 
-import com.example.demo.dto.RoomderQueryParams;
-import com.example.demo.dto.RoomorderRequest;
-import com.example.demo.model.RoomorderVO;
-import com.example.demo.rowmapper.RoomorderRowMapper;
+import com.molife.demo.room.dto.RoomderQueryParams;
+import com.molife.demo.room.dto.RoomorderRequest;
+import com.molife.demo.room.model.RoomorderVO;
+import com.molife.demo.room.rowmapper.RoomorderRowMapper;
 
 @Component
 public class RoomorderDaoImpl implements RoomorderDao {

@@ -11,9 +11,9 @@ import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Component;
 
-import com.example.demo.dto.PetroomRequest;
-import com.example.demo.rowmapper.PetroomRowMapper;
+import com.molife.demo.room.dto.PetroomRequest;
 import com.molife.demo.room.model.PetroomVo;
+import com.molife.demo.room.rowmapper.PetroomRowMapper;
 
 @Component
 public class PetroomDaoImpl implements PetroomDao {

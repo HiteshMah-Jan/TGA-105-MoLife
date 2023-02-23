@@ -1,21 +1,20 @@
-package com.molife.demo.room.dao;
+package com.molife.demo.room.service;
 
 import java.util.List;
 
 import com.molife.demo.room.dto.PetroomRequest;
 import com.molife.demo.room.model.PetroomVo;
 
-public interface PetroomDao {
+public interface PetroomService {
 	
 	List<PetroomVo> getPetrooms();
 	
 	PetroomVo getPetroomById(Integer roomTypeId);
 	
-	PetroomVo getPetroomByName(String roomName);
-	
 	Integer createPetroom(PetroomRequest petroomRequest);
 	
 	void updatePetroom(Integer roomTypeId, PetroomRequest petroomRequest);
-
-
+	
+	
+	
 }
